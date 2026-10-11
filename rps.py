@@ -4,12 +4,12 @@ rps.py
 Redistributed and modified with permission from the
 EECS Department at The University of Michigan, Ann Arbor
 
-Name: TO FILL IN (your name)
+Name: Timothy T Kirby jr 
 
 CS 104: Project 2
 FALL 2026
 
-Description: TO FILL IN (one or two sentences about what this program does)
+Description: This is rock paper scissors tremale game
 """
 
 # ***********************************************************************
