@@ -219,7 +219,27 @@ def rps():
 # Add all function implementations below this line.
 # We have started is_move_good() for you.
 # ***********************************************************************
+def rps():
+    print_initial_header()
 
+p1_name = get_name(PLAYER_1)
+    p2_name = get_name(PLAYER_2)
+
+    keep_playing = True
+    while keep_playing:
+        choice = get_menu_choice()
+
+        if choice == PLAY_RPS:
+            winner = do_game(p1_name, p2_name, PLAY_RPS)
+            announce_winner(winner)
+        elif choice == PLAY_RPSLS:
+            winner = do_game(p1_name, p2_name, PLAY_RPSLS)
+            announce_winner(winner)
+        elif choice == QUIT_CHOICE:
+            keep_playing = False
+
+    print_closer()
+  
 def is_move_good(move):
     """TO FILL IN: describe what this function does in one line."""
     # TODO: implement
